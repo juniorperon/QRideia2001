@@ -70,9 +70,9 @@ header {
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 50%;
+    width: 60%;
     position: absolute;
-    left: 25vw;
+    left: 20vw;
     top: 25vh;
     height: 40rem;
 }
@@ -143,9 +143,15 @@ footer a:hover {
         margin-bottom: 3rem;
     }
     .white-box {
-        height: 120vh;
+        height: 150vh;
     }
     .navigation {
-        height: 150vh;
+        height: 200vh;
+    }
+
+    @media(max-width:900px) {
+        .header-item {
+            visibility: hidden;
+        }
     }
 }
